@@ -14,38 +14,125 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 100vh;
-  padding: 5%;
+  font-family: "League Spartan";
+  /* min-height: 100vh; */
 }
-
-.container {
-
-  /* position: relative; */
-}
-
-.explanation {
-  width: 500px;
-  font-size: 18px;
-}
-
 div p {
   color: #441b43;
 }
 
+.container {
+  padding: 4% 8%;
+}
+
+.explanation {
+  width: 30vw;
+  font-size: 1.3vw;
+  margin-bottom: 5%;
+}
+
+.top {
+  /* border: red solid 1px; */
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2vw;
+}
+
 .title {
-  font-size: 30px;
-  width: 20%;
+  font-size: 3vw;
+  width: 19vw;
   font-weight: bolder;
-  border: red solid 1px;
-  margin-top: 50px;
-  margin-bottom: 30px;
   font-family: "League Spartan";
 }
 
 .rates {
-  /* position: absolute; */
-  left: 800px;
-  top: 20px;
-  border: red solid 1px;
-  width: 400px;
+  width: 22vw;
+  margin-right: 5.5vw;
+  margin-top: 2vw;
+}
+
+.rates p {
+  background-color: #f7f2f8;
+  font-size: 0.8vw;
+  font-weight: bolder;
+  border-radius: 1vh;
+  padding: 0.8vw 4vh;
+  display: flex;
+  align-items: center;
+  width: 20vw;
+}
+
+.rate2 {
+  position: relative;
+  left: 2vw;
+}
+
+.rate3 {
+  position: relative;
+  left: 4vw;
+}
+
+.rates span {
+  color: #e79146;
+}
+
+.rates svg {
+  scale: 60%;
+  /* transform: translateY(7px); */
+  margin-left: -5px;
+}
+
+.introducttion {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  width: 80vw;
+}
+
+.box {
+  width: 20vw;
+  background-color: #441b43;
+  font-size: 1.2vw;
+  line-height: 1.5vw;
+  border-radius: 5px;
+  padding: 2vh 3vw;
+}
+
+.introducttion img {
+  border-radius: 50%;
+  width: 15%;
+}
+
+.introducttion span {
+  position: relative;
+}
+
+.type {
+  color: #e47ab8;
+}
+
+.box p {
+  color: white;
+}
+
+.second {
+  position: relative;
+  top: 3vh;
+}
+
+.third {
+  position: relative;
+  top: 6vh;
+}
+
+.profile {
+  /* border: red solid 1px; */
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 2vh 0 2vh 0;
+}
+
+.profile div {
+  padding-left: 1.5vw;
 }
