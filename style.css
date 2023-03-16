@@ -140,38 +140,50 @@ div p {
   .top {
     display: flex;
     flex-direction: column;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 9vw;
+
     /* border: yellow solid 1px; */
-    margin: auto;
-    margin-left: 10vw;
   }
 
   .explanation {
-    /**/
-    width: 55vw;
+    font-size: 4.5vw;
+    width: 120%;
     display: block;
-    margin: 3vw 3vh;
   }
 
   .title {
-    font-size: 4vh;
-    width: 30vh;
+    font-size: 9vw;
+    width: 100%;
     /* border: red solid 1px; */
   }
 
   .top-left {
     text-align: center;
     padding-bottom: 2vh;
-    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
   }
 
   .container {
+    display: flex;
+    flex-direction: column;
     text-align: center;
-    /* border: blue solid 1px; */
+    align-items: center;
+    padding: 0;
+    width: 80vw;
   }
 
   .rates {
-    width: 40vw;
-    margin: auto;
+    width: 100%;
+  }
+
+  .rates p {
+    flex-direction: column;
+    width: 90%;
   }
 
   .rate2 {
@@ -183,15 +195,12 @@ div p {
   }
 
   .box {
-    margin: auto;
-    width: 65vw;
+    width: 90%;
   }
-
   .introducttion {
-    display: flex;
+    width: 100%;
     flex-direction: column;
-    margin: auto;
-    width: 55vw;
+    align-items: center;
   }
 
   .introducttion span {
@@ -210,11 +219,13 @@ div p {
   }
 
   .profile div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     padding-left: 5vw;
-    height: 10hw;
   }
-  /* 
-  .type {
-    padding-top: 10hw;
-  } */
+
+  .profile span {
+    line-height: 2vh;
+  }
 }
