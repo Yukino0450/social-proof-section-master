@@ -138,31 +138,39 @@ div p {
 
 @media only screen and (max-width: 375px) {
   .top {
+    display: flex;
     flex-direction: column;
-    border: yellow solid 1px;
-    text-align: center;
+    /* border: yellow solid 1px; */
+    margin: auto;
+    margin-left: 10vw;
   }
 
-  .introducttion {
-    flex-direction: column;
+  .explanation {
+    /**/
+    width: 55vw;
+    display: block;
+    margin: 3vw 3vh;
   }
 
   .title {
     font-size: 4vh;
-    margin: auto;
     width: 30vh;
-    border: red solid 1px;
+    /* border: red solid 1px; */
+  }
+
+  .top-left {
+    text-align: center;
+    padding-bottom: 2vh;
+    margin: auto;
   }
 
   .container {
     text-align: center;
-    border: blue solid 1px;
+    /* border: blue solid 1px; */
   }
 
-  .explanation {
-    margin: auto;
-  }
   .rates {
+    width: 40vw;
     margin: auto;
   }
 
@@ -172,6 +180,41 @@ div p {
 
   .rate3 {
     left: 0vw;
-    margin: auto;
   }
+
+  .box {
+    margin: auto;
+    width: 65vw;
+  }
+
+  .introducttion {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 55vw;
+  }
+
+  .introducttion span {
+    font-size: 3vw;
+  }
+
+  .introducttion p {
+    font-size: 3.5vw;
+    line-height: 5vw;
+    text-align: left;
+    padding: 0 5vw;
+  }
+
+  .profile {
+    padding: 0 5vw;
+  }
+
+  .profile div {
+    padding-left: 5vw;
+    height: 10hw;
+  }
+  /* 
+  .type {
+    padding-top: 10hw;
+  } */
 }
